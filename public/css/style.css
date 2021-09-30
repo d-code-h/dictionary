@@ -1,0 +1,11 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+section.results {
+  height: 200px;
+}
+/*# sourceMappingURL=style.css.map */
