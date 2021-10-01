@@ -8,8 +8,8 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.listen(process.env.port, () => {
+app.listen(process.env.PORT, () => {
   console.log('=============================');
-  console.log('Server Started at port' + ' ' + process.env.port);
+  console.log('Server Started at port' + ' ' + process.env.PORT);
   console.log('=============================');
 });
