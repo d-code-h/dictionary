@@ -6,6 +6,10 @@ body {
 }
 
 section.results {
-  height: 200px;
+  height: 10rem;
+}
+
+h2.display-6 {
+  font-size: 1.7rem;
 }
 /*# sourceMappingURL=style.css.map */
