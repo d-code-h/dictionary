@@ -6,7 +6,8 @@ body {
 }
 
 section.results {
-  height: 10rem;
+  min-height: 10rem;
+  height: auto;
 }
 
 h2.display-6 {
