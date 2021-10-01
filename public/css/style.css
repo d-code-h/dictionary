@@ -13,4 +13,12 @@ section.results {
 h2.display-6 {
   font-size: 1.7rem;
 }
+
+ul {
+  margin: 1rem;
+}
+
+li {
+  text-align: justify;
+}
 /*# sourceMappingURL=style.css.map */

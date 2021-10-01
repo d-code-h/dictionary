@@ -9,18 +9,18 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="text-center">
-    <h1 class ="display-1 m-5">Welcome to our Online Dictionary!</h1>
+    <h1 class ="display-2 m-5">Welcome to our Online Dictionary!</h1>
 
     <form class = "border mx-5" action="/submit" method="post">
             <h2 class = "display-6 m-4">Find Meaning To Your Word</h2>
-            <label for="word">Enter your Word Here:</label>
+            <label for="word">Search:</label>
             <input type="text" name="word" id="word" placeholder="English"><br>
             <button class="btn btn-primary my-4" type="submit">Find Meaning</button>
         </fieldset>    
     </form>
 
     <section class="results border mx-5 my-4">
-        <h2 class = "display-6 m-2">Meaning of Word Searched:</h2>
+        <h2 class = "display-6 m-2">Result(s):</h2>
         
         <% if (defs) { %>
             <ul>
